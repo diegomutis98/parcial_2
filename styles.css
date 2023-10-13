@@ -20,6 +20,7 @@ img{
     height: auto;
     margin: 10px;
     border-radius: 40px;
+    transition: all 500ms ease-out;
 }
 .menu{
     width: 38%;
@@ -28,8 +29,8 @@ img{
 .busqueda{
     display: flex;
     justify-content: end;
-    width: 30%;
-    height: 30px;
+    width: 35%;
+    height: 50px;
     margin-right: 20px;
 }
 nav{
@@ -56,4 +57,6 @@ a:hover h2{
 .logo img:hover{
     opacity: 0.5;
     cursor: pointer;
+    transform: scale(1.5);
+    transition: all 500ms ease-out;
 }
